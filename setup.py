@@ -10,7 +10,7 @@ long_description = (this_directory / "README.md").read_text()
 
 # --- Project Metadata ---
 PROJECT_NAME = "aydie-mllib"
-VERSION = "0.0.1"
+VERSION = "1.0.0"
 AUTHOR = "Aditya (Aydie) Dinesh K"  
 AUTHOR_EMAIL = "business@aydie.in" 
 DESCRIPTION = "A Python library to automate machine learning model training and tuning using a simple configuration file."
