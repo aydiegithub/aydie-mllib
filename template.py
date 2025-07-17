@@ -50,5 +50,3 @@ for filepath in list_of_files:
         print(f"{filename} already exists")
         
 print("\n✅ Files Created.....\nExited....\n")
-        
-

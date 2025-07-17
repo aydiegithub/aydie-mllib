@@ -61,4 +61,4 @@ try:
 except Exception as e:
     print(f"\nAn error occurred: {e}")
     print("Please ensure 'config_for_example/model_config.yaml' is correctly configured with valid models from sklearn and xgboost.")
-
+    
