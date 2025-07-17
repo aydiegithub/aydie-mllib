@@ -9,7 +9,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 # --- Project Metadata ---
-PROJECT_NAME = "aydie-mllib"
+PROJECT_NAME = "aydie_mllib"
 VERSION = "1.0.0"
 AUTHOR = "Aditya (Aydie) Dinesh K"  
 AUTHOR_EMAIL = "business@aydie.in" 
