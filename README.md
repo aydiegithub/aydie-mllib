@@ -43,6 +43,7 @@ Here's how to get up and running with `aydie-mllib` in just a few steps.
 First, create a Python script to generate or create a sample `model_config.yaml` file. This will be the blueprint for your training pipeline.
 
 **`generate_config.py`**
+
 ```python
 from aydie_mllib.config import generate_sample_model_config
 
@@ -97,6 +98,7 @@ model_selection:
 Finally, use the `ModelBuilder` to load your configuration, train the models, and find the best one.
 
 **`run_training.py`**
+
 ```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -116,7 +118,7 @@ model_builder = ModelBuilder(model_config_path="config/model_config.yaml")
 
 # --- 3. Get the best model ---
 # The get_best_model method runs the entire pipeline
-best_model_detail = model_factory.get_best_model(X=X, y=y, base_accuracy=0.6)
+best_model_detail = model_builder.get_best_model(X=X, y=y, base_accuracy=0.6)
 
 
 # --- 4. Print the results ---
@@ -142,6 +144,17 @@ The library is centered around the `ModelBuilder` class, which orchestrates the 
     -   `class`: The name of the model class (e.g., `RandomForestRegressor`).
     -   `params`: A dictionary of fixed parameters that will be passed to the model's constructor.
     -   `search_param_grid`: The dictionary of hyperparameters to be tuned by the grid search.
+
+---
+
+## Connect with Me
+
+-   🌐 **Website:** [aydie.in](https://aydie.in)
+-   💼 **LinkedIn:** [@aydiemusic](https://www.linkedin.com/in/aydiemusic)
+-   🐦 **X (Twitter):** [@aydiemusic](https://x.com/aydiemusic)
+-   📸 **Instagram:** [@aydiemusic](https://www.instagram.com/aydiemusic)
+-   📺 **YouTube:** [@aydiemusic](https://www.youtube.com/@aydiemusic)
+-   📧 **Contact:** [business@aydie.in](mailto:business@aydie.in)
 
 ---
 
