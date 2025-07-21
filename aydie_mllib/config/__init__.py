@@ -41,27 +41,27 @@ def generate_sample_model_config(export_dir: str) -> str:
             },
             MODEL_SELECTION_KEY: {
                 "module_0": {
-                    MODULE_KEY: "module_of_model",
-                    CLASS_KEY: "ModelClassName",
+                    MODULE_KEY: "sklearn.ensemble",
+                    CLASS_KEY: "RandomForestRegressor",
                     PARAM_KEY: {
-                        "param_name1": "value1",
-                        "param_name2": "value2",
+                        "random_state": 42
                     },
                     SEARCH_PARAM_GRID_KEY: {
-                        "param_to_tune_1": ['value_A', 'value_B'],
-                        "param_to_tune_2": [10, 20, 30]
+                        "n_estimators": [100, 200],
+                        "max_depth": [5, 10]
                     }
                 },
-                 "module_1": {
-                    MODULE_KEY: "sklearn.linear_model",
-                    CLASS_KEY: "LogisticRegression",
+                "module_1": {
+                    MODULE_KEY: "xgboost",
+                    CLASS_KEY: "XGBRegressor",
                     PARAM_KEY: {
-                        "penalty": "l2"
+                        "objective": "reg:squarederror"
                     },
                     SEARCH_PARAM_GRID_KEY: {
-                        "C": [0.1, 1, 10]
+                        "n_estimators": [50, 100],
+                        "learning_rate": [0.05, 0.1]
                     }
-                },
+                }
             }
         }
         
@@ -80,4 +80,3 @@ def generate_sample_model_config(export_dir: str) -> str:
     except Exception as e:
         logger.error(f"Failed to generate sample model config: {e}")
         raise AydieException(e, sys) from e
-    
