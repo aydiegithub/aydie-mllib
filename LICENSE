@@ -1,0 +1,52 @@
+MIT License (Extended Version)
+
+Copyright (c) 2025 Aditya (Aydie) Dinesh K
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. Usage Rights:
+   - You are free to use this software for personal, educational, or commercial purposes.
+   - You may modify the source code or parts of it to fit your specific needs.
+   - You are allowed to distribute the software as-is or as part of a larger work.
+   - You may sublicense and even sell copies of the software.
+
+2. Conditions of Use:
+   - The original copyright notice and this license shall be 
+     included in all copies or substantial portions of the Software.
+   - You must provide appropriate attribution to the original author:
+     “Aditya (Aydie) Dinesh K – Creator of aydie-mllib”
+
+3. Limitations and Disclaimer:
+   - The Software is provided “as is”, without warranty of any kind, 
+     express or implied, including but not limited to the warranties of 
+     merchantability, fitness for a particular purpose, and noninfringement.
+   - In no event shall the author or copyright holder be liable 
+     for any claim, damages, or other liability, whether in an action of 
+     contract, tort, or otherwise, arising from, out of, or in connection with 
+     the Software or the use or other dealings in the Software.
+   - You use this software at your own risk. It is your responsibility to test 
+     and verify the suitability of this code for your specific application.
+
+4. Respect for Original Work:
+   - While modifications are allowed, derivative works must not 
+     misrepresent the origin of the software.
+   - If you significantly alter the code and redistribute it, consider 
+     including a note explaining your changes.
+
+5. Good-Faith Use:
+   - This license encourages open-source collaboration. If you improve this 
+     project or adapt it for broader use, contributing back to the community 
+     via pull requests or sharing enhancements is appreciated, though not required.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
