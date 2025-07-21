@@ -54,8 +54,8 @@ class ModelBuilder:
             self.grid_search_class_name: str = self.config[GRID_SEARCH_KEY][CLASS_KEY]
             self.grid_search_property_data: dict = dict(self.config[GRID_SEARCH_KEY][PARAM_KEY])
             
-            # Load model selection configuration
-            self.models_initialisation_config: dict = dict[self.config[MODEL_SELECTION_KEY]]
+            # Load model selection configuration - THIS LINE IS NOW CORRECTED
+            self.models_initialisation_config: dict = self.config[MODEL_SELECTION_KEY]
             
             # These will be populated as we process the models
             self.initialised_model_list: List[InitializedModelDetail] = []
@@ -273,6 +273,7 @@ class ModelBuilder:
         
     
     
+    @staticmethod
     def get_best_model_from_list(grid_searched_models: List[GridSearchedBestModel], base_accuracy: float = BASE_ACCURACY) -> BestModel:
         """
         Compares all the tuned models and returns the one with the highest score.
@@ -304,4 +305,3 @@ class ModelBuilder:
             
         except Exception as e:
             raise AydieException(e, sys) from e
-        
