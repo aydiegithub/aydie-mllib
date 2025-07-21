@@ -18,7 +18,7 @@ This library is built to be extensible and supports any model that follows the s
 
 ## Installation
 
-You can install `aydie-mllib` directly from PyPI (once you publish it):
+You can install `aydie-mllib` directly from PyPI:
 
 ```bash
 pip install aydie-mllib
@@ -40,7 +40,7 @@ Here's how to get up and running with `aydie-mllib` in just a few steps.
 
 ### 1. Generate the Configuration File
 
-First, create a Python script to generate or create a sample `model_config.yaml` file. This will be the blueprint for your training pipeline.
+First, create a Python script to generate a sample `model_config.yaml` file. This will be the blueprint for your training pipeline.
 
 **`generate_config.py`**
 
